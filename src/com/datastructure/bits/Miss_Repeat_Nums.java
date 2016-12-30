@@ -2,16 +2,16 @@ package com.datastructure.bits;
 
 public class Miss_Repeat_Nums {
 
-	public static void main(String[] args) {
+   public static void main(String[] args) {
 		
      int [] arr = {1, 2,3, 5, 6,7};
-    // twoMissingNums(arr,8);	
+     twoMissingNums(arr,8);	
      
      int [] arr1 = {1, 2,3, 5, 6,7,7};
-	 oneMissOneRepeatNum(arr1,arr1.length);	
-	}
+      oneMissOneRepeatNum(arr1,arr1.length);	
+}
 	
-	private static void oneMissOneRepeatNum(int[] arr, int n) {
+private static void oneMissOneRepeatNum(int[] arr, int n) {
 	
 	int xor = 0;	
 	for (int i = 0; i < arr.length; i++) {
@@ -22,8 +22,9 @@ public class Miss_Repeat_Nums {
 	
 	int first = xor & ~(xor-1);
 	int second = xor^first;
-    System.out.println("missing and repeating nums are: "+first+" "+second);	
-	}
+        System.out.println("missing and repeating nums are: "+first+" "+second);	
+	
+}
 
 	public static void twoMissingNums(int[] arr,int n) {
 	
