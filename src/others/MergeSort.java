@@ -1,4 +1,4 @@
-package com.coding.test;
+package others;
 /*
  * merge two sorted array
  *  

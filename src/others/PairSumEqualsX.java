@@ -1,4 +1,4 @@
-package com.datastructure.arrays;
+package others;
 
 /*
  * Given an array we need to print all pairs for a given input value

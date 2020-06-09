@@ -1,4 +1,4 @@
-package com.coding.test;
+package others;
 
 /*
  * given an input string and if we want to print all the words containing
